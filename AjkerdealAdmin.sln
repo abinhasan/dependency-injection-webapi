@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User Interface", "User Interface", "{BE48A63C-5262-4510-9C41-F530A19406FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D8BC76F1-47AB-4E9D-8BEA-D9BF82B26D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Interfaces", "Service Interfaces", "{C988C184-C2B0-4321-A399-93A51A04EB2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{63C343F3-7FB1-4125-B935-8FFF9ABD40E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D38CCE81-3233-4C83-9FA0-AE506E3A819D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Admin", "AjkerdealAdmin.Admin\AjkerdealAdmin.Admin.csproj", "{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Admin.Tests", "AjkerdealAdmin.Admin.Tests\AjkerdealAdmin.Admin.Tests.csproj", "{EEF41DF3-B923-493A-8402-598A79B309ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Services", "AjkerdealAdmin.Services\AjkerdealAdmin.Services.csproj", "{B191ED46-3293-4818-8D8C-55BB375AD4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Services.Interfaces", "AjkerdealAdmin.Services.Interfaces\AjkerdealAdmin.Services.Interfaces.csproj", "{C8C5539F-26C3-47A3-B1A1-44BCC3252238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Connection", "AjkerdealAdmin.Connection\AjkerdealAdmin.Connection.csproj", "{97ABD8AD-CB41-405D-8FED-B566DA8E7048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Infrastructure.Data", "AjkerdealAdmin.Infrastructure.Data\AjkerdealAdmin.Infrastructure.Data.csproj", "{9BAACB1A-6098-4197-ACDA-20B69FC1E195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Domain.Entities", "AjkerdealAdmin.Domain.Entities\AjkerdealAdmin.Domain.Entities.csproj", "{E416F964-F856-4D1E-90ED-12912F7A9421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjkerdealAdmin.Domain.Interfaces", "AjkerdealAdmin.Domain.Interfaces\AjkerdealAdmin.Domain.Interfaces.csproj", "{44211676-81B2-475E-916F-425263A827FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF41DF3-B923-493A-8402-598A79B309ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF41DF3-B923-493A-8402-598A79B309ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF41DF3-B923-493A-8402-598A79B309ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF41DF3-B923-493A-8402-598A79B309ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B191ED46-3293-4818-8D8C-55BB375AD4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B191ED46-3293-4818-8D8C-55BB375AD4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B191ED46-3293-4818-8D8C-55BB375AD4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B191ED46-3293-4818-8D8C-55BB375AD4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C5539F-26C3-47A3-B1A1-44BCC3252238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C5539F-26C3-47A3-B1A1-44BCC3252238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C5539F-26C3-47A3-B1A1-44BCC3252238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C5539F-26C3-47A3-B1A1-44BCC3252238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ABD8AD-CB41-405D-8FED-B566DA8E7048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ABD8AD-CB41-405D-8FED-B566DA8E7048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ABD8AD-CB41-405D-8FED-B566DA8E7048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ABD8AD-CB41-405D-8FED-B566DA8E7048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAACB1A-6098-4197-ACDA-20B69FC1E195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAACB1A-6098-4197-ACDA-20B69FC1E195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAACB1A-6098-4197-ACDA-20B69FC1E195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAACB1A-6098-4197-ACDA-20B69FC1E195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E416F964-F856-4D1E-90ED-12912F7A9421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E416F964-F856-4D1E-90ED-12912F7A9421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E416F964-F856-4D1E-90ED-12912F7A9421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E416F964-F856-4D1E-90ED-12912F7A9421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44211676-81B2-475E-916F-425263A827FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44211676-81B2-475E-916F-425263A827FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44211676-81B2-475E-916F-425263A827FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44211676-81B2-475E-916F-425263A827FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE776CD0-AFAF-43BD-B1F3-F8E8BC97ADA1} = {BE48A63C-5262-4510-9C41-F530A19406FE}
+		{EEF41DF3-B923-493A-8402-598A79B309ED} = {BE48A63C-5262-4510-9C41-F530A19406FE}
+		{B191ED46-3293-4818-8D8C-55BB375AD4A3} = {D8BC76F1-47AB-4E9D-8BEA-D9BF82B26D5D}
+		{C8C5539F-26C3-47A3-B1A1-44BCC3252238} = {C988C184-C2B0-4321-A399-93A51A04EB2B}
+		{97ABD8AD-CB41-405D-8FED-B566DA8E7048} = {63C343F3-7FB1-4125-B935-8FFF9ABD40E5}
+		{9BAACB1A-6098-4197-ACDA-20B69FC1E195} = {63C343F3-7FB1-4125-B935-8FFF9ABD40E5}
+		{E416F964-F856-4D1E-90ED-12912F7A9421} = {D38CCE81-3233-4C83-9FA0-AE506E3A819D}
+		{44211676-81B2-475E-916F-425263A827FD} = {D38CCE81-3233-4C83-9FA0-AE506E3A819D}
+	EndGlobalSection
+EndGlobal

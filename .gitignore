@@ -1,0 +1,17 @@
+AjkerdealAdmin.Admin/obj
+AjkerdealAdmin.Admin/bin
+AjkerdealAdmin.Admin.Tests/bin
+AjkerdealAdmin.Admin.Tests/obj
+AjkerdealAdmin.Connection/obj
+AjkerdealAdmin.Connection/bin
+AjkerdealAdmin.Domain.Entities/obj
+AjkerdealAdmin.Domain.Entities/bin
+AjkerdealAdmin.Domain.Interfaces/bin
+AjkerdealAdmin.Domain.Interfaces/obj
+AjkerdealAdmin.Infrastructure.Data/bin
+AjkerdealAdmin.Infrastructure.Data/obj
+AjkerdealAdmin.Services/bin
+AjkerdealAdmin.Services/obj
+AjkerdealAdmin.Services.Interfaces/bin
+AjkerdealAdmin.Services.Interfaces/obj
+
