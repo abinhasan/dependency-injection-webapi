@@ -25,25 +25,7 @@ namespace AjkerdealAdmin.Connection
         private static readonly SqlConnectionStringBuilder LiveConnectionString =
             new SqlConnectionStringBuilder
             {
-                //ApplicationName = "LiveConnection",
-                //DataSource = "50.28.38.161",
-                ////DataSource = "192.168.0.4",
-                //InitialCatalog = "AjkerDeal",
-                //IntegratedSecurity = false,
-                //Password = "AD#RS@Dl+016",
-                //PersistSecurityInfo = false,
-                //Pooling = true,
-                //UserID = "AjkerD"
-
-                ApplicationName = "LiveConnection",
-                DataSource = "69.16.228.137",
-                //DataSource = "192.168.0.5",
-                InitialCatalog = "AjkerDeal",
-                IntegratedSecurity = false,
-                Password = "b01shakH@23#R",
-                PersistSecurityInfo = false,
-                Pooling = true,
-                UserID = "AjkerD"
+               
             };
 
         private SqlConnection _databaseConnection;
